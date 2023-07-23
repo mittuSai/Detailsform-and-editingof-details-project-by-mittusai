@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Document</title>
+   <link rel="stylesheet" href="EmpDetails.css">
+   <script src="./EmpDetails.js" defer></script>
+</head>
+<body onload="getOutPut()">
+    <table>
+        <tr>
+            <th colspan="4">Emp Details</th>
+        </tr>
+        <tr>
+            <th>Emp name</th>
+            <th class="getOutput">   </th>
+            <th><input type="button"  value="Delete" class="Deletebutton" onclick="deleteItem('EName')"></th>
+            <th><a href="./EmpDetails.html#Ename"><input type="button" value="Update" class="UpdateButton"></a></th>
+        </tr>
+        <tr>
+            <th>Emp id</th>
+            <th class="getOutput">   </th>
+            <th><input type="button"  value="Delete" class="Deletebutton" onclick="deleteItem('EId')"></th>
+            <th><input type="button" value="Update" class="UpdateButton"></th>
+        </tr>
+        <tr>
+            <th>Emp Designation</th>
+            <th class="getOutput">   </th>
+            <th><input type="button"  value="Delete" class="Deletebutton" onclick="deleteItem('EDesignation')"></th>
+            <th><input type="button" value="Update" class="UpdateButton"></th>
+        </tr>
+        <tr>
+            <th>Emp Salary</th>
+            <th class="getOutput">   </th>
+            <th><input type="button"  value="Delete" class="Deletebutton" onclick="deleteItem('ESalary')"></th>
+            <th><input type="button" value="Update" class="UpdateButton"></th>
+        </tr>
+        <tr>
+            <th>Emp phn</th>
+            <th class="getOutput">   </th>
+            <th><input type="button"  value="Delete" class="Deletebutton" onclick="deleteItem('EPhn')"></th>
+            <th><input type="button" value="Update" class="UpdateButton"></th>
+        </tr>
+        <tr>
+            <th>Emp Email</th>
+            <th class="getOutput">   </th>
+            <th><input type="button"  value="Delete" class="Deletebutton" onclick="deleteItem('EmpEmail')"></th>
+            <th><input type="button" value="Update" class="UpdateButton"></th>
+        </tr>
+       
+        <tr><th colspan="4"><input type="button" value="clear" onclick="clearData()"></th></tr>
+    </table>
+</body>
+</html>
